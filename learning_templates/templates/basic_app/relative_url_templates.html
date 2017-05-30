@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to relative url templates</h1>
+    <a href="{% url 'basic_app:other' %}">THE OTHER PAGE</a><br>
+    <!-- BE CAREFUL WITH THE ABOVE, YOU CANNOT HAVE SPACES IN BETWEEN THE QUOTES INSIDE TEMPATE TAGS -->
+
+    <a href="{% url 'admin:index' %}">TO THE ADMIN PAGE</a><br>
+    <a href="{% url 'index' %}">LINK TO INDEX</a>
+  </body>
+</html>
